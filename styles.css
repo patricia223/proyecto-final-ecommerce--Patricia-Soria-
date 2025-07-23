@@ -1,0 +1,808 @@
+body {
+    background-color:#f5f3f3 ;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    position:sticky;
+    top:0%;
+    height: 150px;
+    background-color:#fcdddd;
+    text-align: center;
+    padding: 2px;
+    font-size: 13px;
+  };
+
+.imglogo {
+    margin-bottom: 0;
+    padding: 0;
+    
+}
+h1{
+    font-family: "IBM Plex Serif", serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    color: #FF6F00;
+}
+.nav {
+  list-style: none;
+  text-align: left;
+}
+
+.nav-list { list-style: none;
+    text-decoration: none;
+     flex-wrap: wrap;
+     display: flex;
+     justify-content: space-around;
+     
+}
+
+.header_link {
+text-decoration: none;
+color: #180142;
+}
+.navlist{
+    list-style: none;
+    flex-direction: column;
+    display: flex;
+
+}
+
+.pet-footer {
+  background-color: #fcdddd;
+  padding: 10px ;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 50px;
+}
+.footer-pet-p {
+  margin: 2px ;
+  color: #555;
+  font-size: 12px;
+}
+
+a{
+    margin:3px;
+}
+
+
+/*css para inicio*/
+
+.bienvenido{
+  font-family:"Satisfy", serif ;
+  color:#69053e;
+  font-size: 90px;
+  text-align: center;
+  margin-right: 200px ;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.p1 {
+  font-family:"Montserrat",serif;
+  font-size: 25px;
+  text-align: center;
+  margin-right: 170px;
+  margin-top: 5px;
+  color: #333;
+}
+ .img-banner {
+    width: 1000px;
+    height: 700px;
+    margin-right: 170px;
+    border-radius: 20px;
+  }
+
+
+/*css para nosotros*/
+
+.titulo-nosotros{
+  color: #69053e;
+  font-size: 40px;
+}
+.nosotros-grid {
+  display: grid;
+  grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  padding: 20px 40px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.texto-nosotros {
+  font-size: 18px;
+  color: #555;
+  text-align: justify;
+}
+
+.visual-nosotros {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.visual-nosotros video{
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.visual-nosotros img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+/*css para PRODUCTOS*/
+
+.productos-contenedor{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap:wrap ;
+  align-items: stretch;
+  text-align: center;
+  color:#555;
+  box-shadow: #69053e;
+
+}
+.titulo-prod{
+  color: #69053e;
+  font-size: 32px;
+}
+
+.producto{
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px;
+  width: 250px;
+}
+.producto:hover {
+  transform: translateY(-6px); 
+}
+/**css para reseñas**/
+/* Sección Reseñas */
+
+.reseñas {
+  padding: 100px ;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.titulo-reseñas {
+  text-align: center;
+  font-size: 32px;
+  color: #69053e;
+  margin-bottom: 30px;
+}
+
+.reseñas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 10px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
+  color: #555;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0,0,0,0.15);
+}
+
+.card h3 {
+  color: #FF6F00;
+  margin-top: 0;
+}
+
+.card p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+/*css para Servicios*/
+.servicio-pet{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap:wrap ;
+  align-items: stretch;
+  text-align: center;
+  color: #444;
+}
+
+.titulo-servicio{
+  color: #69053e;
+  font-size: 32px;
+}
+
+.servicio{
+  background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 280px;
+}
+
+.servicio img {
+  border-radius: 10px;
+  width: 250px;
+  height: 200px;
+  margin-right: 50px;
+}
+
+/*css para formulario*/
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  background-color: #ffffff;
+  padding: 20px ;
+  border: 5px;
+  width: 400px;
+  height: 380px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+  color: #444;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.navlist {
+  list-style: none;
+  padding: 0;
+}
+
+.navlist li {
+  margin-bottom: 15px;
+}
+
+label {
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.nombre{
+  width: 380px;
+  height: 15px;
+  padding: 8px ;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  
+
+}
+.telefono{
+  width: 380px;
+  height: 15px;
+  padding: 8px ;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  
+
+}
+.email{
+ width: 380px;
+  height: 15px;
+  padding: 8px ;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+textarea {
+  
+  width: 380px;
+  height: 50px;
+  padding: 8px ;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #B17850;
+  color: white;
+  border: none;
+  font-size: 16px;
+}
+
+/*
+Estilo para Fakestore con el Botón Comprar en aling buttom
+*/
+
+#fakestore-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Estilos para cada tarjeta */
+.card {
+  display: flex; 
+  flex-direction: column; /* aplica los elementos verticalmente */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 5px;
+  height: 100%; /* Asegura que todas las tarjetas tengan la misma altura */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Estilos para la imagen del producto */
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: 15px;
+  background: #f8f8f8;
+  border-radius: 5px 5px 0 0;
+}
+
+/* Estilos para el título del producto */
+.card-content h3 {
+  font-size: 1rem;
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+/* Estilos para el precio */
+.card-content p {
+  font-size: 1.1rem;
+  color: #2a5d34;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Estilos para el contenido de la tarjeta */
+.card-content {
+  flex-grow: 1; /* Hace que este elemento ocupe todo el espacio disponible */
+  margin-bottom: 10px;
+  padding: 0 10px;
+}
+
+/* Estilos para el botón de compra */
+.comprar-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: auto; /* empuja el botón hacia la parte inferior */
+  transition: background-color 0.3s;
+  width: calc(100% - 10px);
+  margin: 10px 5px;
+  font-weight: bold;
+}
+
+.comprar-btn:hover {
+  background-color: #45a049;
+}
+
+/* Estilos para el modal del carrito */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-contenido {
+  background-color: #f8f8f8;
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  animation: modalopen 0.3s;
+}
+
+@keyframes modalopen {
+  from {opacity: 0; transform: translateY(-50px)}
+  to {opacity: 1; transform: translateY(0)}
+}
+
+.cerrar-modal {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cerrar-modal:hover {
+  color: #333;
+}
+
+.modal-contenido h2 {
+  color: #2a5d34;
+  margin-top: 0;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+#lista-carrito {
+  max-height: 300px;
+  overflow-y: auto;
+  margin: 20px 0;
+}
+
+.item-carrito {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  align-items: center;
+}
+
+.item-carrito span:first-child {
+  flex: 2;
+}
+
+.item-carrito span:last-child {
+  flex: 1;
+  text-align: right;
+  font-weight: bold;
+  color: #2a5d34;
+}
+
+#total-carrito {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: right;
+  padding: 10px;
+  background-color: #e9f5eb;
+  border-radius: 4px;
+  margin: 10px 0;
+}
+
+.botones-carrito {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.botones-carrito button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+#vaciar-carrito {
+  background-color: #f44336;
+  color: white;
+}
+
+#vaciar-carrito:hover {
+  background-color: #d32f2f;
+}
+
+#pagar {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#pagar:hover {
+  background-color: #388e3c;
+}
+
+/* Estilos para el contador del carrito */
+.contador-carrito {
+  display: none;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: #f44336;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.carrito-icono {
+  position: relative;
+}
+
+
+/* Media para todas las pantallas*/
+/* Celulares (hasta 600px) puse esos valore porque con el otro no se podia adaptar bien al tamaño de la pag */ 
+@media (min-width: 381px) and (max-width: 480px)  {
+
+  header {
+    height: auto;
+    padding: 10px;
+  }
+
+  .imglogo {
+    width: 14%;
+  }
+
+  .h1 {
+    font-size: 18px;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px; 
+    gap: 10px; 
+  }
+
+  .bienvenido {
+    font-size: 36px;
+    margin: 10px;
+    text-align: center;
+  }
+
+  .img-banner {
+    width: 90%;
+    margin: auto;
+    display: block;
+    height: auto;
+  }
+
+  .p1 {
+    margin: 10px auto;
+    padding: 10px;
+    max-width: 90%;
+    text-align: center;
+  }
+
+  .nosotros-contenido {
+    font-size: 16px;
+    margin: 10px;
+  }
+
+  .titulo-nosotros,
+  .titulo-prod,
+  .titulo-servicio {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .productos-contenedor,
+  .servicio-pet {
+    flex-direction: column;
+    align-items: center;
+  }
+ .servicio img {
+  width: 100%;
+  height: auto;
+  max-width: 360px; 
+}
+  .producto,
+  .servicio {
+    width: 90%;
+    margin: 10px;
+  }
+
+  .video {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+  .reseñas {
+    padding: 20px 10px;
+  }
+
+  .titulo-reseñas {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .reseñas-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .card {
+    padding: 15px;
+    font-size: 14px;
+  }
+}
+form {
+  padding: 30px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+  h2 {
+    font-size: 18px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+
+ 
+
+
+/* Tabletas (481px a 768px) */
+@media (max-width: 768px) {
+
+  .imglogo {
+    width: 10%;
+  }
+
+  .h1 {
+    font-size: 20px;
+  }
+
+  .nav-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .bienvenido {
+    font-size: 48px;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .img-banner {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+
+  .p1 {
+    font-size: 20px;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .nosotros-contenido {
+    font-size: 18px;
+    margin: 20px;
+  }
+
+  .productos-contenedor,
+  .servicio-pet {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .producto,
+  .servicio {
+    width: 80%;
+    margin: 15px;
+  }
+  .visual-nosotros img{
+    width: 130px;
+    height: 130px;
+    margin-bottom: 40px;
+  }
+  .visual-nosotros video {
+    height:100px
+  }
+  .titulo-reseñas {
+    font-size: 28px;
+  }
+
+  .reseñas-grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 18px;
+  }
+
+  .card {
+    padding: 18px;
+  }
+
+
+  form {
+    width: 80%;
+    height: auto;
+  }
+
+  .nombre, .telefono, .email, textarea {
+    width: 100%;
+  }
+
+  button {
+    font-size: 15px;
+  }
+}
+
+
+/* Escritorio (769px en adelante) */
+@media (min-width: 750px)  {
+
+  .imglogo {
+    width: 4%;
+  }
+
+  .h1 {
+    font-size: 24px;
+  }
+
+  .bienvenido {
+    font-size: 60px;
+    margin-left: 150px;
+  }
+
+  .img-banner {
+    width: 900px;
+    height: 700px;
+    margin-left: 200px;
+  }
+
+  .p1 {
+    font-size: 25px;
+    margin-left: 150px;
+  }
+
+  .nosotros-contenido {
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 60px;
+  }
+
+  .productos-contenedor,
+  .servicio-pet {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .producto,
+  .servicio {
+    width: 250px;
+  }
+
+  .video {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+ .reseñas {
+    padding: 40px 60px;
+  }
+
+  .titulo-reseñas {
+    font-size: 32px;
+  }
+
+  .reseñas-grid {
+    gap: 20px;
+  }
+
+  .card {
+    max-width: 100%;
+  }
+
+  form {
+    width: 400px;
+    height: 380px;
+  }
+}
